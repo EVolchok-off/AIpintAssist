@@ -1,0 +1,6 @@
+{
+    "api_url": "https://openrouter.ai/api/v1",
+    "model": "meta-llama/llama-3-70b-instruct",
+    "api_key": "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",
+    "platform": "auto"
+  }
