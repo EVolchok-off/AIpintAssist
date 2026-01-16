@@ -23,7 +23,8 @@ def main():
         ai = AIClient(
             api_url=config["api_url"],
             model=config["model"],
-            api_key=config.get("api_key")
+            api_key=config.get("api_key"),
+            language=config.get("language", "ru")
         )
 
         print(f"🧠 Подключено к модели: {config['model']}")
